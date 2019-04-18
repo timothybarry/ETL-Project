@@ -17,6 +17,6 @@ For the dog's intelligence, our data looked at the following:
 
 We loaded each CSV into a dataframe, connected the database to mySQL and SQLalchemy and then cleaned the data on our SQL Workbench. The cleaning requiring was column renaming. 
 
-Our final database was SQL database. Because we found all of the information relevant, we included all columns. We joined the data onto one final table based on the dog's breed. We considered averaging the high and lows of the number of times in which you would need to repeat a command in order to have the dog understand but we believe that representation of the range was necessary.
+Our final database was SQL database. Because we found all of the information relevant, we included all columns. We joined the data onto one final table based on the dog's breed. We considered averaging the high and lows of the number of times in which you would need to repeat a command in order to have the dog understand but we believe that representation of the range was necessary. Because our final table consisted of only 135 rows, we did not feel that partionining the dataset was necessary.
 
 
